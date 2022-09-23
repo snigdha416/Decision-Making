@@ -1,0 +1,12 @@
+There are 3 labs in the CSE department (L1, L2 and L3) with a seating capacity of x, y and z. find the lab which has the minimal seating capacity. 
+
+X=int(input("Enter X \n"))
+Y=int(input("Enter Y \n"))
+Z=int(input("Enter Z \n"))
+if(X<Y) and (X<Z):
+    print("L1 has the minimal seating capacity")
+elif(Y<X) and (Y<Z):
+    print("L2 has the minimal seating capacity")
+elif(Z<X) and (Z<Y):
+    print("L3 has the minimal seating capacity")
+    
