@@ -1,0 +1,12 @@
+t’s your job to calculate the cost of replacing damaged battle droids and to check whether it is within the budget limit of Rs. 15000. The cost of the equipment and parts is given in the table below.
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+x=a*350.34+b*230.90+c*190.55+d*125.30+e*180.90 
+if(x<=15000):
+    print('yes')
+else:
+    print('no')
