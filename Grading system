@@ -1,0 +1,19 @@
+The newly appointed Vice Chancellor of Anna University wanted to create a automated grading system for the students to check their grade. When a student enter a mark, the grading system displays the corresponding grade.
+
+a=int(input())
+if a==100:
+    print("S")
+elif a<100 and a>=90:
+    print("A")
+elif a<90 and a>=80:
+    print("B")
+elif a<80 and a>=70:
+    print("C")
+elif a<70 and a>=60:
+    print("D")
+elif a<60 and a>=50:
+     print("E")
+elif a<50:
+    print("F")
+else:
+    print("invalid input")
